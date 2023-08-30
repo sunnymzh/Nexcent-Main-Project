@@ -1,0 +1,516 @@
+/* Common CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --brand-color: #4CAF4F;
+    --main-gray: #4D4D4D;
+    --nav-color: #18191F;
+    --pera-color: #717171;
+    --white-color: white;
+    --backfround-color: #f5f7fa;
+    --footer-background-color: #263238;
+}
+
+/* header Top Section */
+
+.header-top {
+    padding: 30px;
+    background-color: var(--backfround-color);
+}
+
+.main-nav a {
+    color: var(--nav-color);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.main-nav ul li {
+    margin-left: 10px;
+}
+
+.main-nav ul li:first-child {
+    margin-left: 0;
+}
+
+a.login {
+    color: var(--brand-color);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+a.signup {
+    color: var(--white-color);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 14px;
+}
+
+.signup {
+    display: inline;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--brand-color);
+
+
+}
+
+/* hero section */
+
+.hero-section {
+    background-color: var(--backfround-color);
+    padding: 96px;
+}
+
+.single-owl-carousel {
+    display: flex;
+    align-items: center;
+}
+
+.owl-carousel-item h1 {
+    color: var(--main-gray);
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.owl-carousel-item h1 span {
+    color: var(--brand-color);
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.owl-carousel-item a {
+    display: inline;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--brand-color);
+    color: var(--backfround-color);
+}
+
+.owl-carousel-item p {
+    color: var(--pera-color);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.owl-carousel-img {
+    padding: 30px;
+
+
+}
+
+.hero-section .owl-dots button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color: #97cc99;
+}
+
+.hero-section .owl-dots .active {
+    color: var(--brand-color);
+}
+
+
+
+/* Client Section */
+.client-section {
+    margin: 40px;
+
+}
+
+.client-title h2 {
+    color: var(--main-gray);
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.client-title p {
+    color: var(--pera-color);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+
+.client-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+/* community-section */
+
+
+
+.community-title h2 {
+    color: var(--main-gray);
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.community-title p {
+    color: var(--pera-color);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.single-community-card {
+    text-align: center;
+    border-radius: 8px;
+    background: var(--white-color);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.single-community-card img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 24px;
+}
+
+/* Pixelgrade section */
+
+.pixelgrade-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pixelgrade-area img {
+    width: 442px;
+    height: 433px;
+    padding: 52px 0.467px 52.005px 0px;
+}
+
+.pixelgrade-area h2 {
+    color: var(--main-gray);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.pixelgrade-area p {
+    color: var(--pera-color);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 24px;
+
+}
+
+.learn-more-btn {
+    display: inline;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--white-color);
+    border-radius: 4px;
+    background: var(--brand-color);
+}
+
+/* Counter section */
+
+.counter-section {
+    background-color: var(--backfround-color);
+    padding: 64px 0;
+}
+
+.counter-para {
+    color: var(--pera-color);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.counter-boxs{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.single-counter-box{
+    display: flex;
+    align-items: center;
+}
+
+.counter-number {
+    margin-left: 16px;
+}
+
+/* Tim Smith Section */
+
+.tim-smith-section {
+    background-color: var(--backfround-color);
+}
+
+.tim-smith-area {
+
+    display: flex;
+    margin: 48px 0;
+    padding: 32px 0;
+    align-items: center;
+}
+
+.tim-smith-para p {
+    color: var(--pera-color);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.tim-smith-para h3 {
+    color: var(--brand-color);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.tim-smith-logo {
+    display: flex;
+    margin-top: 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.meet-all-customers {
+    color: var(--brand-color);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* marketing section */
+
+.marketing-para h2 {
+    color: var(--main-gray);
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.marketing-para p {
+    color: var(--pera-color);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.marketing-box {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background: var(--backfround-color);
+    box-shadow: 0px 8px 16px 0px rgba(20, 20, 20, 0.4);
+    position: relative;
+    margin-top: -50px;
+}
+
+.readmore {
+    color: var(--brand-color);
+}
+
+.marketing-area {
+    display: flex;
+    align-items: center;
+}
+
+/* Demo section */
+
+.demo-section {
+    margin: 40px;
+
+
+}
+
+.demo-area h1 {
+    color: var(--main-gray);
+    text-align: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.demo {
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--brand-color);
+    color: var(--white-color);
+    margin-left: 45%;
+}
+
+/* Footer Section */
+
+.footer-section {
+    background-color: var(--footer-background-color);
+    padding: 64px 0;
+}
+
+.footer-logo-area a img {
+    margin-bottom: 40px;
+}
+
+.copyright {
+    color: var(--white-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.all-right {
+    color: var(--white-color);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.font-awesome-icon {
+    display: flex;
+    gap: 16px;
+}
+
+.font-awesome-icon a {
+    width: 32px;
+    height: 32px;
+    background: var(--pera-color);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.font-awesome-icon a i {
+    color: var(--white-color);
+}
+
+.footer-area {
+    display: flex;
+    align-items: center;
+}
+
+.company h3 {
+    color: var(--white-color);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.company ul li a {
+    color: var(--white-color);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+form h4 {
+    color: var(--white-color);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+form.footer-form {
+    position: relative;
+    width: 100%;
+}
+
+form.footer-form input {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: var(--main-gray);
+}
+
+form.footer-form button {
+    position: absolute;
+    border: none;
+    background: no-repeat;
+    right: 12px;
+    top: 57px;
+}
+
+form.footer-form button i{
+    color: var(--white-color);
+}
