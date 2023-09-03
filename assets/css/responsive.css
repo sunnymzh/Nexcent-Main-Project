@@ -1,0 +1,105 @@
+@media screen and (max-width: 1200px){
+ 
+    a.main-logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .main-nav {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .login-button-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+
+    
+    .pixelgrade-area {
+
+    flex-direction: column;
+    padding-bottom: 40px;
+    text-align: center;
+    }
+
+    .pixelgrade-area img {
+        width: 350px;
+        height: 300px;
+        margin: 10px 0;
+    }
+
+    .tim-smith-area{
+        flex-direction:column;
+        text-align: center;
+        padding: 20px 20px;
+    }
+    .tim-smith-para.col-xl-8 {
+        text-align: justify;
+    }
+
+    .marketing-area {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .demo-area h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    a.demo {
+        margin-left: 68px;
+    }
+    
+    .footer-area {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    
+} 
+
+
+@media screen and (max-width: 992px){
+ 
+    .single-owl-carousel {
+        flex-direction: column-reverse;
+        
+    }
+    .owl-carousel-item h1{
+        font-size: 30px;
+    }
+    .owl-carousel-item h1 span{
+        font-size: 30px;
+    }
+    .hero-section{
+    padding: 10px 0
+   }
+    section.hero-section {
+    text-align: center;
+    }
+    .owl-carousel-img {
+        width: 60%;
+    }  
+    .client-list {
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+        gap: 5px;
+    }
+    .counter-para{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .counter-number h3{
+        font-size: 20px;
+    }
+    
+   
+} 
